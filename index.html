@@ -3,94 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/cyberpunk_favicon.png">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
-        <div class="header_logo">
-
-        </div>
+        <a href="index.html"><img id="header_logo" src="img/cyberpunk_logo.png" alt="cyberpunk logo"></a>
         <div class="header_links">
-            <button>Link_1</button>
-            <button>Link_2</button>
-            <Button>Link_3</Button>
+            <button class="header_button">Link</button>
+            <button class="header_button">Link</button>
+            <Button class="header_button">Link</Button>
         </div>
     </header>
 
     <section class="hero_section">
         <div class="hero_text">
-
+            <h1 class="hero_heading">GET THE <span id="ultimate">ULTIMATE</span><br>CYBERPUNK 2077<br>EXPERIENCE</h1>
+            <button id="hero_button">BUY NOW</button>
         </div>
-        <div class="hero_image">
-
-        </div>
+        <img id="hero_image" src="img/hero_image.png" alt="cyberpunk hero image">
     </section>
 
     <section class="information_section">
-        <p class="information_header">Information header</p>
+        <h3 class="information_header">ALL THE CONTENT FROM THE CYBERPUNK UNIVERSE !</h3>
         <div class="information_boxes">
             <div class="information_box">
-                <div class="box">
-
-                </div>
-                <p class="info_box_text">
-                    box_1 text
-                </p>
+                <img class="box_image" src="img/Info_box_images/cyberpunk_2077.jpg" alt="cyberpunk 2077 base game cover">
+                <!-- <p class="box_text"></p> -->
             </div>
             <div class="information_box">
-                <div class="box">
-
-                </div>
-                <p class="info_box_text">
-                    box_1 text
-                </p>
+                <img class="box_image" src="img/Info_box_images/phantom_liberty.jpg" alt="cyberpunk 2077 phantom-liberty expansion cover">
+                
             </div>
             <div class="information_box">
-                <div class="box">
-
-                </div>
-                <p class="info_box_text">
-                    box_1 text
-                </p>
+                <img class="box_image" src="img/Info_box_images/edgerunners.jpg" alt="cyberpunk edgerunners tv show cover">
             </div>
             <div class="information_box">
-                <div class="box">
-
-                </div>
-                <p class="info_box_text">
-                    box_1 text
-                </p>
+                <img class="box_image" src="img/Info_box_images/edgerunners_2.jpg" alt="cyberpunk edgerunners two tv show cover">
             </div>
         </div>
     </section>
 
     <section class="quote_section">
-        <p class="quote">
-            something that sounds goofy or cool
-        </p>
-        <p class="quote_sign">
-            - said by
+        <h2 class="quote-header">
+            WELCOME TO THE DARK FUTURE
+        </h2>
+        <p class="quote-text">
+            IMMERSE YOURSELF IN THE CYBERPUNK UNIVERSE, FROM THE ORIGINAL STORYLINE OF CYBERPUNK 2077 AND ITS GRIPPY SPY-THRILLER EXPANSION PHANTOM LIBERTY
         </p>
     </section>
 
     <section class="cta_section">
-        <div class="banner">
-            <div class="cta_text">
-                <p class="cta_heading">
-                    CTA Heading
-                </p>
-                <p class="cta_text">
-                    CTA txt
-                </p>
-            </div>
-            <button class="cta_button">Click_me</button>
+        <div id="cta_text">
+            <h3 id="cta_heading">
+                SIGN UP FOR THE CYBERPUNK 2077 NEWSLETTER!
+            </h3>
+            <p class="cta_text">
+                FROM GAMES TO BEYOND, KEEP YOUR FEED UP TO DATE WITH THE LATEST NEWS AND ANNOUNCEMENTS ON ALL THINGS CYBERPUNK 2077
+            </p>
         </div>
-
+        <div class="cta_button_section">
+            <button id="cta_button">SIGN UP</button>
+        </div>
     </section>
     <footer class="footer">
-        <p class="footer_text">Website footer text</p>
+        <p class="footer_text">A Project For : THE ODIN PROJECT</p>
     </footer>
 </body>
 </html>
