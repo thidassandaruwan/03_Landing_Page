@@ -199,3 +199,48 @@ a{
     padding: 1vh;
     text-align: center;
 }
+
+
+/* =========================================
+   MOBILE RESPONSIVENESS (Screens under 768px)
+   ========================================= */
+@media (max-width: 768px) {
+    
+    /* 1. Center the Header Elements */
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .header_links {
+        justify-content: center;
+    }
+
+    /* 2. Stack the Hero Section and fix the image */
+    .hero_section {
+        flex-direction: column; /* Stacks the text on top of the image */
+        text-align: center;
+    }
+    
+    #hero_image {
+        height: auto; /* Removes the 75vh restriction */
+        width: 90%;   /* Makes the image fit perfectly inside the phone screen */
+        margin-bottom: 20px;
+    }
+
+    /* 3. Make the Info Boxes full-width */
+    .information_box {
+        width: 85vw; /* Instead of 20vw, they now take up 85% of the mobile screen */
+        margin-bottom: 10px;
+    }
+
+    /* 4. Stack the Call to Action section */
+    .cta_section {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        margin: 5vh 20px; /* Reduces the massive 10vh margin for smaller screens */
+    }
+}
